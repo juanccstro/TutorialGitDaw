@@ -38,3 +38,4 @@
 13. Ver el historial de cambios en el repositorio:
     - git log: Muestra un registro detallado de los commits realizados en el repositorio.
 
+Creado por Juan Castro
