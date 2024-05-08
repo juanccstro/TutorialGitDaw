@@ -1,0 +1,40 @@
+1. Actualizar el sistema operativo Ubuntu:
+   - apt update: Actualiza la lista de paquetes disponibles para su instalación.
+
+2. Instalar Git en el equipo local:
+   - apt-get install git: Instala Git en el sistema local.
+
+3. Conocer la versión de Git instalada:
+   - git --version: Muestra la versión de Git instalada.
+
+4. Crear un nuevo repositorio Git:
+   - git init: Inicializa un nuevo repositorio Git en el directorio actual.
+
+5. Configurar la cuenta de usuario en Git:
+   - git config --global user.name “nombreUsuario”
+   - git config --global user.email “emailUsuario”: Establece el nombre de usuario y el correo electrónico asociados con las actividades de Git.
+
+6. Verificar los cambios no actualizados en el repositorio:
+   - git status: Muestra el estado de los archivos en el repositorio local.
+
+7. Agregar cambios al área de preparación (Staging Area):
+    - git add .: Agrega todos los archivos modificados al área de preparación.
+
+8. Confirmar los cambios en el repositorio local:
+    - git commit -m “comentario”: Confirma los cambios realizados en los archivos del repositorio local.
+
+9. Cambiar el nombre de la rama principal a 'main':
+    - git branch -M main: Renombra la rama principal del repositorio local a 'main'.
+
+10. Agregar un repositorio remoto:
+    - git remote add identificador URL_del_repositorio_GitHub: Establece una conexión entre el repositorio local y un repositorio remoto en GitHub.
+
+11. Subir cambios al repositorio remoto en GitHub:
+    - git push -u identificador rama: Envía los cambios confirmados del repositorio local al repositorio remoto en GitHub.
+
+12. Consultar el estado del repositorio para confirmar los cambios realizados:
+    - git status: Verifica que Git haya detectado los cambios realizados en el archivo modificado y muestra el estado actual del repositorio.
+
+13. Ver el historial de cambios en el repositorio:
+    - git log: Muestra un registro detallado de los commits realizados en el repositorio.
+
